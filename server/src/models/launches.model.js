@@ -19,7 +19,6 @@ function existsLaunchWithId(launchId) {
     return launches.has(launchId);
 }
 function getAllLaunches() {
-    console.log(launches);
     return Array.from(launches.values());
 }
 
